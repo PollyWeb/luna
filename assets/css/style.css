@@ -82,20 +82,25 @@ header h1 > span {
 }
 
 .servises {
+	margin-bottom: 50px;
 	padding: 100px 0 80px 0;
 }
 
 .servises h2 {
+	margin-top: 50px;
 	font-weight: 300; 
 	font-size: 48px;
 	text-align: center;
 	color: #40485a;
 }
+#service{
+	margin-top: 50px;
+}
 
 .servises hr {
 	border: 2px solid #4923a7;
 	width: 80px;
-	margin: 40px auto 65px auto;
+	margin: 40px auto 65px 50px;
 }
 .item {
 	text-align: center;
@@ -127,7 +132,7 @@ header h1 > span {
 .servises a {
 	font-weight: 500;
 	font-size: 18px;
-	color: #4ca9ff
+	color: #4ca9ff;
 	text-transform: uppercase;
 	border-bottom:2px solid #4ca9ff; 
 
@@ -189,4 +194,62 @@ header h1 > span {
 }
 .sites:hover{
 	border-top: 2px solid rgba(255,255,255,1);
+}
+.footer{
+	background-color: black;
+	padding: 50px;
+
+}
+.sitemap{
+	float: left;
+	width: 50%;
+	padding: 50 px;
+	margin: 25px;
+
+}.forma{
+	float: right;
+	width: 40%;
+    background-color: #1d2329;
+    padding: 10px;
+    color: #007bff;
+}
+
+
+.forma input[type=text], select, textarea {
+  width: 100%; 
+  padding: 5px; 
+  margin-bottom: 2px;
+  background-color: rgba(252, 252, 252, 0.8);
+  border: 1px solid #fff;
+  border-radius: 2px; 
+  box-sizing: border-box;
+  margin-top: 2px;
+  resize: vertical;
+  color: #007bff;
+}
+
+.forma input[type=submit] {
+  background-color: #4ca8ff;
+  color: #fff;
+  margin-bottom: 0rem;
+  padding: 0 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forma input[type=submit]:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+.footer2{
+	background-color: black;
+	padding: 50px 0 100px 50px;
+	color: grey;
+
+}
+.footer h3 {
+	color:#626f79;
 }
