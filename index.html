@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	</head>
 	<body>
-		<header>
+		<header id="zaglavie">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
@@ -19,20 +19,21 @@
 					<div class="col-md-8">
 						<nav>
 							<ul>
-								<li><a href="#">Home</a>
+								<li><a href="#zaglavie">Home</a>
 								</li>
-								<li><a href="#">About us</a>
+								<li><a href="#about">About us</a>
 								</li>
-								<li><a href="#">Services</a>
+								<li><a href="#service">Services</a>
 								</li>
-								<li><a href="#">Contact us</a>
+								<li><a href="#contactus">Contact us</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
 				</div>
+				</div>
 				<div class="col-md-12">
-					<h1> We make <span>web</span> better.</h1>
+					<h1 > We make <span>web</span> better.</h1>
 				</div>
 			</div>
 		</header>
@@ -41,15 +42,19 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
-						<h2>About us</h2>
+						<h2 id="about">About us</h2>
 						<hr>
 					</div>
 	            	<div class="col-md-7">
 	            	<p>
-	            		Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore assumenda amet rerum, consectetur molestias quam labore tenetur velit atque reprehenderit aut tempora possimus, dolorum maiores. Ad, mollitia. Et, laboriosam? Ducimus.
+	            		Luna is a starting web design agency with an yaun design team that creates innovative, 
+	            		effective websites that capture your brand, improve your conversion rates, and maximize your 
+	            		revenue to help grow your business and achieve your goals.
+	            		
 	            	</p>
 	            	<p>
-	            		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quibusdam reiciendis quod, quas error iusto soluta nam magni nihil libero provident facilis, eos corrupti repellat. Placeat aspernatur ratione voluptate numquam.
+	            		In today’s digital world, your website is the first interaction consumers have with your business.
+	            		<a href="#contactus">Contact us</a> today to tell us more about your business and start designing your custom website!
 	            	</p>
 
 	            	</div>
@@ -82,38 +87,34 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>How we do</h2>
+						<h2 id="service">Our services</h2>
 						<hr>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4 item">
 						<img src="assets/img/service1.jpg" alt="service">
-						<h3>beutiful design</h3>
+						<h3>Beutiful design</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							We create a design that is beautiful, user-friendly and easy to maintain.
 						</p>
 					</div>
 					<div class="col-md-4 item">
 						<img src="assets/img/service2.jpg" alt="service">
-						<h3>best development</h3>
+						<h3>Best development</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							We design and build easy-to-use, highly functional and stunning websites.
 						</p>
 					</div>
 					<div class="col-md-4 item">
 						<img src="assets/img/service3.jpg" alt="service">
-						<h3>web promote</h3>
+						<h3>Web promote</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Customized web solutions for any type of business optimised for all devices.
 						</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<a href="#">show more</a>
-					</div>
-				</div>
+
 			</div>
 		</section>
 		 <section class="payments">
@@ -133,30 +134,40 @@
 		 			<div class="col-md-3">
 		 				<img src="assets/img/login.jpg" alt="login" class="login">
 		 			</div>
-				 	</div>	
-				 	<div class="row">
-				 		<div class="col-md-3 sites">
-                          <h4>lorem</h4>                                                    
-				 			<h3>lorem</h3>
-				 		</div>
-				 		<div class="col-md-3 sites">
-                          <h4>lorem</h4>                          
-				 			<h3>lorem</h3>
-				 		</div>
-				 		<div class="col-md-3 sites">
-                          <h4>lorem</h4> 
-				 			<h3>lorem</h3>
-				 		</div>
-				 		<div class="col-md-3 sites">
-                          <h4>lorem</h4> 
-				 			<h3>lorem</h3>
-				 		</div>
 				 	</div>
+		</section>
+		<section class="footer">
+				 	<div class="sitemap" ><h3>Site map</h3>
+				 		
+				 		<div><h4><a href="#zaglavie">Home</a></h4> </div>
+                        <div><h4><a href="#about">About us</a></h4></div>
+				 		<div><h4><a href="#service">Services</a></h4></div>
+				 		<div><h4><a href="#contactus">Contact</a></h4></div>
 				 	</div>	
+				 	<h3 id="contactus">Contact us</h3>
+				 	<div class="forma">
+
+						<form action="action_page.php">
+						    <label for="fname">First Name</label>
+						    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+						    <label for="lname">Last Name</label>
+						    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+						    <label for="subject">Subject</label>
+						    <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+						    <input type="submit" value="Submit">
+
+						</form>
+					</div>
+				 		
+		</section>
+		<section class="footer2">
+		 	<div class="col-md-5">
+		 		<span>Cpyright   © 2021,<a href="zaglavie"> Luna</a></span><br>
+		 		<span>ПГКМКС - гр.Варна    |    Симеон Раданов, VIII A клас</span>
+		 	</div>
 		 </section>
 
-
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 	</body>
 </html>
